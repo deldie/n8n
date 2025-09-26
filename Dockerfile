@@ -1,4 +1,5 @@
-FROM n8nio/n8n
+# Usa la imagen oficial de n8n
+FROM docker.n8n.io/n8nio/n8n:latest
 
 # Render asigna el puerto en la variable $PORT
 ENV N8N_PORT=$PORT
